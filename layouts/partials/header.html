@@ -12,7 +12,7 @@
   
   <div class="navbar-menu">
     <div class="navbar-start">
-      {{ range .Site.Taxonomies.tags }}
+      {{ range .Site.Taxonomies.series }}
       <a class="navbar-item" href="{{ .Page.Permalink }}">
         {{ if (eq .Page.Title (upper .Page.Title )) }}
         {{ .Page.Title  }}

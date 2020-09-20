@@ -1,0 +1,26 @@
+
+baseURL = "https://n3bbq.org"
+languageCode = "en-us"
+title = "FBOM International"
+theme = "bare"
+enableGitInfo = true
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[params]
+mainSections = ["post"]
+author = "Fine Business Old Man International"
+email = "hello@hello-world.com"
+repoLink = "https://github.com/orf/bare-hugo-theme"
+description = "Home of Reddit's first on-air ham club"
+# PostCSS is harder than it should be to get working on a theme
+# example site. It's easy on _your_ site.
+postcss = false
+# Include the author name in the <title> of articles
+includeAuthorInTitle = false
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/orf/"

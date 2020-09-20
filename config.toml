@@ -4,13 +4,15 @@ languageCode = "en-us"
 title = "FBOM International"
 theme = "bare"
 enableGitInfo = true
+[markup.goldmark.renderer]
+unsafe= true
 
 [taxonomies]
   tag = "tags"
   series = "series"
 
 [params]
-mainSections = ["post"]
+mainSections = ["posts"]
 author = "Fine Business Old Man International"
 email = "hello@hello-world.com"
 repoLink = "https://github.com/orf/bare-hugo-theme"
@@ -19,8 +21,9 @@ description = "Home of Reddit's first on-air ham club"
 # example site. It's easy on _your_ site.
 postcss = false
 # Include the author name in the <title> of articles
-includeAuthorInTitle = false
+includeAuthorInTitle = true
+hero_colour = "light"
 
 [[params.social]]
 icon = "github"
-url = "https://github.com/orf/"
+url = "https://github.com/n3bbq/fbom_website"

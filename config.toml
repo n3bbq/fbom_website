@@ -1,9 +1,10 @@
 
-baseURL = "https://n3bbq.org"
+baseURL = "https://fbom.club"
 languageCode = "en-us"
 title = "FBOM International"
 theme = "bare"
 enableGitInfo = true
+
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -14,8 +15,8 @@ unsafe= true
 [params]
 mainSections = ["posts"]
 author = "Fine Business Old Man International"
-email = "hello@hello-world.com"
-repoLink = "https://github.com/orf/bare-hugo-theme"
+email = "admins@fbom.club"
+repoLink = "https://github.com/n3bbq/fbom_website"
 description = "Home of Reddit's first on-air ham club"
 # PostCSS is harder than it should be to get working on a theme
 # example site. It's easy on _your_ site.

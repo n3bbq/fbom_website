@@ -1,7 +1,7 @@
 ---
 title: "DC Powered Shack PC"
 date: 2015-09-14T12:00:00-05:00
-draft: true
+draft: false
 tags: ["ham"]
 author: "N3BBQ"
 ---

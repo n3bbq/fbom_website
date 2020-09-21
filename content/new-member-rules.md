@@ -7,4 +7,4 @@ type: "page"
 
 # New Member Rules
 
-Please read the following PDF:  <a href="/static/dump/fbom_membership_rules_august_2015.pdf">fbom_membership_rules_august_2015.pdf</a>
+Please read the following PDF:  <a href="/dump/fbom_membership_rules_august_2015.pdf">fbom_membership_rules_august_2015.pdf</a>

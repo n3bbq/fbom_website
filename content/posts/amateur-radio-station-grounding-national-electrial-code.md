@@ -1,7 +1,7 @@
 ---
 title: "Amateur Radio Station Grounding - National Electrial Code"
 date: 2015-02-25T12:00:00-05:00
-draft: true
+draft: false
 tags: ["ham","grounding"]
 categories: ["ham"]
 series: ["ham"]
@@ -16,7 +16,7 @@ In fact, it is written that the following is the purpose of NEC:
 
 “(A) Practical Safeguarding: The purpose of this Code is the practical safeguarding of persons and property from hazards arising from the use of electricity.
 
-B) Adequacy: This Code contains provisions considered necessary for safety. Compliance therewith and proper maintenance results in an installation that is essentially free from hazard but not necessarily efficient, convenient, or adequate for good service or future expansion of electrical use.
+(B) Adequacy: This Code contains provisions considered necessary for safety. Compliance therewith and proper maintenance results in an installation that is essentially free from hazard but not necessarily efficient, convenient, or adequate for good service or future expansion of electrical use.
 
 (C) Intention. This Code is not intended as a design specification or instruction manual for untrained persons.”
 

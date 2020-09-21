@@ -1,5 +1,5 @@
 ---
-title: "Amateur Radio Station Grounding"
+title: "Amateur Radio Station Grounding - Ground Electrodes"
 date: 2015-08-31T12:00:00-05:00
 draft: false
 tags: ["ham","grounding"]

@@ -8,6 +8,7 @@
       {{ else }}
       (commit {{ $.GitInfo.AbbreviatedHash }})
       {{ end }}
+      <br />
     {{ end }}
       {{ if (not $.Site.Params.disableAttribution) }}
       <a href="https://github.com/orf/bare-hugo-theme" target="_blank">Bare Hugo theme.</a>

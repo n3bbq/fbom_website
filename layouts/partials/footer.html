@@ -1,17 +1,14 @@
 <footer class="footer">
   <div class="content has-text-centered">
-    {{ if $.GitInfo }}
     <p>
-      Last modified {{ $.GitInfo.AuthorDate.Format "January 02, 2006" }}
+    {{ if $.GitInfo }}
+      This page last modified {{ $.GitInfo.AuthorDate.Format "January 02, 2006" }}
       {{ if $.Site.Params.repoLink }}
       (commit <a href="{{ $.Site.Params.repoLink }}/commit/{{ $.GitInfo.Hash }}" target="_blank">{{ $.GitInfo.AbbreviatedHash }}</a>)
       {{ else }}
       (commit {{ $.GitInfo.AbbreviatedHash }})
       {{ end }}
-    </p>
     {{ end }}
-    
-    <p>
       {{ if (not $.Site.Params.disableAttribution) }}
       <a href="https://github.com/orf/bare-hugo-theme" target="_blank">Bare Hugo theme.</a>
       {{ end }}

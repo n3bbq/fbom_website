@@ -1,0 +1,19 @@
+{{ define "hero-body" }}
+<div class="container">
+  <article class="media">
+    <div class="media-content">
+      <h1 class="title">
+        {{ if .Data.Term }}
+        Posts tagged with {{.Data.Term}}
+        {{ else }}
+        Blog Posts by Members
+        {{ end }}
+      </h1>
+    </div>
+  </article>
+</div>
+{{ end }}
+
+{{ define "main" }}
+{{ partial "posts.html" .Pages }}
+{{ end }}

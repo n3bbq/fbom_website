@@ -6,7 +6,7 @@ type: "page"
 ---
 * Frank, N6QB, Keeper of the Gavel, Elected Director
 * Edward, KG5EQI, Keeper of the Logs
-* William, AE5CP, Keeper of the Dogecoin, Elected Director
+* William, WL5H, Keeper of the Dogecoin, Elected Director
 * Ben, N7AMD, Elected Director
 * Anthony, K5BLX, Elected Director
 * Tim, N7NON, Keeper of The Cyber Domain, Elected Director

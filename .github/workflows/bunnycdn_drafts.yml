@@ -14,7 +14,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.74.3'
+          hugo-version: 'latest'
           extended: true
       - name: Build
         run: cd /home/runner/work/fbom_website/fbom_website; hugo --baseURL "https://drafts.fbom.club"; pwd;

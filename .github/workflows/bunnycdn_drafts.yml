@@ -1,0 +1,27 @@
+name: BunnyCDN FTP Deployment
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Build
+        run: cd /home/runner/work/fbom_website/fbom_website; hugo --baseURL "https://drafts.fbom.club"; pwd;
+      - name: Deploy FTP
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ftp://la.storage.bunnycdn.com
+          user: ${{ secrets.drafts_BUNNYCDNSTORAGEUSER }}
+          password: ${{ secrets.drafts_BUNNYCDNSTORAGEPASSW }}
+          localDir: "/home/runner/work/fbom_website/fbom_website/public"

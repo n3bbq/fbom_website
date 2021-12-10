@@ -14,7 +14,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
+          hugo-version: '0.74.3'
+          extended: true
       - name: Build
         run: cd /home/runner/work/fbom_website/fbom_website; hugo --baseURL "https://drafts.fbom.club"; pwd;
       - name: Deploy FTP
